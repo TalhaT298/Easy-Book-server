@@ -43,11 +43,11 @@ jwt.verify(token, process.env.ACCESS_TOKEN ,function(err, decoded){
 async function run(){
 try{
 
-const categoryCollection= client.db('thriftly').collection('category');
-const allcategories =client.db('thriftly').collection('categories');
-const bookingcollection =client.db('thriftly').collection('bookings');
-const userscollection =client.db('thriftly').collection('users');
-const allAdvertised =client.db('thriftly').collection('advertised');
+const categoryCollection= client.db('easybook').collection('category');
+const allcategories =client.db('easybook').collection('categories');
+const bookingcollection =client.db('easybook').collection('bookings');
+const userscollection =client.db('easybook').collection('users');
+const allAdvertised =client.db('easybook').collection('advertised');
 
 
 
