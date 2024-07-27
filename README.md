@@ -1,7 +1,7 @@
 # EasyBook Server
 This repository contains the server-side code for EasyBook, a modern platform for book management and reading. Built with Express.js and MongoDB, this server provides a robust and secure backend to handle various functionalities, including user authentication, book management, and personalized recommendations.
 ### Features
-● User Authentication: Secure login and registration using JSON Web Tokens (JWT).
+● User Authentication: Secure login and registration using JSON Web Tokens (JWT). </br>
 ● Category Management: Create, read, update, and delete book categories.
 ● Booking Management: Handle user bookings for books.
 ● User Management: Manage user roles and permissions (admin, seller, buyer).
